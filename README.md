@@ -7,7 +7,11 @@ I wanted to see if I can mockup/recreate parts of the Vanguard app using SwiftUI
 
 All the UI was made using the iPhone XS Max, so some componenets maybe not look nice unless it's on it.
 
-## Screenshots
+## GIFs
+<p align="middle">
+  <img src="./Screenshots/darkmode.GIF" width=250>
+  <img src="./Screenshots/lightmode.GIF" width=250>
+</p>
 
 ## How to open
 
@@ -16,3 +20,8 @@ All the UI was made using the iPhone XS Max, so some componenets maybe not look 
 
 ## Vanguard Beacon App
 https://investor.vanguard.com/investing/mobile-apps
+
+## Disclaimer 
+This is a mockup, all data is faked and there are no network calls.
+
+Everything was designed/created without usaged of any Vanguard related media. All symbols/font are system defaults of iOS.
