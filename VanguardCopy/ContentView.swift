@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            PortfolioView()
+                .tabItem {
+                    Image(systemName: "line.diagonal.arrow")
+                    Text("Portfolio")
+                }
+            TransactView()
+                .tabItem {
+                    Image(systemName: "arrow.right.arrow.left")
+                    Text("Transact")
+                }
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gearshape")
+                    Text("Settings")
+                }
+        }
+        .accentColor(Color("vanguard"))
     }
 }
 

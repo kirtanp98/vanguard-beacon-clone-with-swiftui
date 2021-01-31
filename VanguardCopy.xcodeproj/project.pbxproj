@@ -7,19 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02F80EE25C4BDA600C7433D /* InactiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F80ED25C4BDA600C7433D /* InactiveView.swift */; };
+		A02F80F225C4D7E400C7433D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F80F125C4D7E400C7433D /* LoginViewModel.swift */; };
+		A02F80F525C4DB9300C7433D /* WelcomeBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F80F425C4DB9300C7433D /* WelcomeBackView.swift */; };
+		A02F80F925C4EF7900C7433D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F80F825C4EF7900C7433D /* SettingsView.swift */; };
+		A02F80FC25C4F59100C7433D /* VanguardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F80FB25C4F59100C7433D /* VanguardButtonStyle.swift */; };
+		A02F80FF25C4F64700C7433D /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F80FE25C4F64700C7433D /* PortfolioView.swift */; };
+		A03169EA25C623C100CE2BDA /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03169E925C623C100CE2BDA /* TransactionType.swift */; };
+		A03169ED25C626C700CE2BDA /* FeedbackModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03169EC25C626C700CE2BDA /* FeedbackModalController.swift */; };
+		A03169F025C627E200CE2BDA /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03169EF25C627E200CE2BDA /* FeedBackView.swift */; };
 		A074866125C4BB4100870BA0 /* VanguardCopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074866025C4BB4100870BA0 /* VanguardCopyApp.swift */; };
 		A074866325C4BB4100870BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074866225C4BB4100870BA0 /* ContentView.swift */; };
 		A074866525C4BB4200870BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A074866425C4BB4200870BA0 /* Assets.xcassets */; };
 		A074866825C4BB4200870BA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A074866725C4BB4200870BA0 /* Preview Assets.xcassets */; };
+		A07DE1EA25C5F10F00253DAD /* TransactItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07DE1E925C5F10F00253DAD /* TransactItemView.swift */; };
+		A093B13C25C5B33300C2D4E2 /* PortfolioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B13B25C5B33300C2D4E2 /* PortfolioButtonGroup.swift */; };
+		A093B14125C5B3AD00C2D4E2 /* UnderlineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B14025C5B3AD00C2D4E2 /* UnderlineText.swift */; };
+		A093B14425C5B99400C2D4E2 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B14325C5B99400C2D4E2 /* ToggleButton.swift */; };
+		A093B14825C5B9CC00C2D4E2 /* ResultEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B14725C5B9CC00C2D4E2 /* ResultEnum.swift */; };
+		A093B14C25C5C34A00C2D4E2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B14B25C5C34A00C2D4E2 /* Color+Extension.swift */; };
+		A093B14F25C5C47E00C2D4E2 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B14E25C5C47E00C2D4E2 /* DateFormatter+Extension.swift */; };
+		A093B15325C5C4F700C2D4E2 /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B15225C5C4F700C2D4E2 /* TextModifier.swift */; };
+		A093B15725C5C85100C2D4E2 /* FakeDisclosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B15625C5C85100C2D4E2 /* FakeDisclosures.swift */; };
+		A093B15B25C5CB5C00C2D4E2 /* PerformaceReturnsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B15A25C5CB5C00C2D4E2 /* PerformaceReturnsView.swift */; };
+		A093B15F25C5CBCE00C2D4E2 /* BrokerageAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B15E25C5CBCE00C2D4E2 /* BrokerageAccountButton.swift */; };
+		A093B16225C5CD7700C2D4E2 /* RetirementButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B16125C5CD7700C2D4E2 /* RetirementButton.swift */; };
+		A093B16525C5D0A500C2D4E2 /* AssetMixButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B16425C5D0A500C2D4E2 /* AssetMixButton.swift */; };
+		A093B16825C5D33300C2D4E2 /* ActivityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B16725C5D33300C2D4E2 /* ActivityButton.swift */; };
+		A093B16C25C5E0AC00C2D4E2 /* ColorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B16B25C5E0AC00C2D4E2 /* ColorButtonStyle.swift */; };
+		A093B16F25C5E3D500C2D4E2 /* TransactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B16E25C5E3D500C2D4E2 /* TransactView.swift */; };
+		A093B17725C5E48E00C2D4E2 /* TransactGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093B17625C5E48E00C2D4E2 /* TransactGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A02F80ED25C4BDA600C7433D /* InactiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactiveView.swift; sourceTree = "<group>"; };
+		A02F80F125C4D7E400C7433D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A02F80F425C4DB9300C7433D /* WelcomeBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackView.swift; sourceTree = "<group>"; };
+		A02F80F825C4EF7900C7433D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A02F80FB25C4F59100C7433D /* VanguardButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanguardButtonStyle.swift; sourceTree = "<group>"; };
+		A02F80FE25C4F64700C7433D /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		A03169E925C623C100CE2BDA /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		A03169EC25C626C700CE2BDA /* FeedbackModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackModalController.swift; sourceTree = "<group>"; };
+		A03169EF25C627E200CE2BDA /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackView.swift; sourceTree = "<group>"; };
 		A074865D25C4BB4100870BA0 /* VanguardCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanguardCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A074866025C4BB4100870BA0 /* VanguardCopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanguardCopyApp.swift; sourceTree = "<group>"; };
 		A074866225C4BB4100870BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A074866425C4BB4200870BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A074866725C4BB4200870BA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A074866925C4BB4200870BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07DE1E925C5F10F00253DAD /* TransactItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactItemView.swift; sourceTree = "<group>"; };
+		A093B13B25C5B33300C2D4E2 /* PortfolioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioButtonGroup.swift; sourceTree = "<group>"; };
+		A093B14025C5B3AD00C2D4E2 /* UnderlineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineText.swift; sourceTree = "<group>"; };
+		A093B14325C5B99400C2D4E2 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		A093B14725C5B9CC00C2D4E2 /* ResultEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultEnum.swift; sourceTree = "<group>"; };
+		A093B14B25C5C34A00C2D4E2 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		A093B14E25C5C47E00C2D4E2 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		A093B15225C5C4F700C2D4E2 /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		A093B15625C5C85100C2D4E2 /* FakeDisclosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDisclosures.swift; sourceTree = "<group>"; };
+		A093B15A25C5CB5C00C2D4E2 /* PerformaceReturnsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformaceReturnsView.swift; sourceTree = "<group>"; };
+		A093B15E25C5CBCE00C2D4E2 /* BrokerageAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerageAccountButton.swift; sourceTree = "<group>"; };
+		A093B16125C5CD7700C2D4E2 /* RetirementButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementButton.swift; sourceTree = "<group>"; };
+		A093B16425C5D0A500C2D4E2 /* AssetMixButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMixButton.swift; sourceTree = "<group>"; };
+		A093B16725C5D33300C2D4E2 /* ActivityButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityButton.swift; sourceTree = "<group>"; };
+		A093B16B25C5E0AC00C2D4E2 /* ColorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtonStyle.swift; sourceTree = "<group>"; };
+		A093B16E25C5E3D500C2D4E2 /* TransactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactView.swift; sourceTree = "<group>"; };
+		A093B17625C5E48E00C2D4E2 /* TransactGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +85,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0088C2425C5B0FB00420C7A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A02F80FB25C4F59100C7433D /* VanguardButtonStyle.swift */,
+				A093B14325C5B99400C2D4E2 /* ToggleButton.swift */,
+				A093B16B25C5E0AC00C2D4E2 /* ColorButtonStyle.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		A02F80EC25C4BD8F00C7433D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A093B15925C5CB3200C2D4E2 /* PortfolioButtons */,
+				A093B15125C5C4E200C2D4E2 /* Modifers */,
+				A093B13E25C5B39300C2D4E2 /* Styles */,
+				A02F80ED25C4BDA600C7433D /* InactiveView.swift */,
+				A02F80F425C4DB9300C7433D /* WelcomeBackView.swift */,
+				A02F80F825C4EF7900C7433D /* SettingsView.swift */,
+				A02F80FE25C4F64700C7433D /* PortfolioView.swift */,
+				A093B13B25C5B33300C2D4E2 /* PortfolioButtonGroup.swift */,
+				A093B15625C5C85100C2D4E2 /* FakeDisclosures.swift */,
+				A093B16E25C5E3D500C2D4E2 /* TransactView.swift */,
+				A093B17625C5E48E00C2D4E2 /* TransactGroupView.swift */,
+				A07DE1E925C5F10F00253DAD /* TransactItemView.swift */,
+				A03169EF25C627E200CE2BDA /* FeedBackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A02F80F025C4C3B400C7433D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A02F80F125C4D7E400C7433D /* LoginViewModel.swift */,
+				A03169EC25C626C700CE2BDA /* FeedbackModalController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		A074865425C4BB4100870BA0 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +143,10 @@
 		A074865F25C4BB4100870BA0 /* VanguardCopy */ = {
 			isa = PBXGroup;
 			children = (
+				A093B14A25C5C33C00C2D4E2 /* Extensions */,
+				A093B14625C5B9BC00C2D4E2 /* Model */,
+				A02F80F025C4C3B400C7433D /* ViewModel */,
+				A02F80EC25C4BD8F00C7433D /* Views */,
 				A074866025C4BB4100870BA0 /* VanguardCopyApp.swift */,
 				A074866225C4BB4100870BA0 /* ContentView.swift */,
 				A074866425C4BB4200870BA0 /* Assets.xcassets */,
@@ -67,6 +162,61 @@
 				A074866725C4BB4200870BA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A093B13E25C5B39300C2D4E2 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				A093B13F25C5B39A00C2D4E2 /* Text */,
+				A0088C2425C5B0FB00420C7A /* Buttons */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		A093B13F25C5B39A00C2D4E2 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				A093B14025C5B3AD00C2D4E2 /* UnderlineText.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		A093B14625C5B9BC00C2D4E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A093B14725C5B9CC00C2D4E2 /* ResultEnum.swift */,
+				A03169E925C623C100CE2BDA /* TransactionType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A093B14A25C5C33C00C2D4E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A093B14B25C5C34A00C2D4E2 /* Color+Extension.swift */,
+				A093B14E25C5C47E00C2D4E2 /* DateFormatter+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A093B15125C5C4E200C2D4E2 /* Modifers */ = {
+			isa = PBXGroup;
+			children = (
+				A093B15225C5C4F700C2D4E2 /* TextModifier.swift */,
+			);
+			path = Modifers;
+			sourceTree = "<group>";
+		};
+		A093B15925C5CB3200C2D4E2 /* PortfolioButtons */ = {
+			isa = PBXGroup;
+			children = (
+				A093B15A25C5CB5C00C2D4E2 /* PerformaceReturnsView.swift */,
+				A093B15E25C5CBCE00C2D4E2 /* BrokerageAccountButton.swift */,
+				A093B16125C5CD7700C2D4E2 /* RetirementButton.swift */,
+				A093B16425C5D0A500C2D4E2 /* AssetMixButton.swift */,
+				A093B16725C5D33300C2D4E2 /* ActivityButton.swift */,
+			);
+			path = PortfolioButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +288,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A093B15B25C5CB5C00C2D4E2 /* PerformaceReturnsView.swift in Sources */,
+				A093B16C25C5E0AC00C2D4E2 /* ColorButtonStyle.swift in Sources */,
+				A093B15325C5C4F700C2D4E2 /* TextModifier.swift in Sources */,
+				A093B15F25C5CBCE00C2D4E2 /* BrokerageAccountButton.swift in Sources */,
+				A093B16F25C5E3D500C2D4E2 /* TransactView.swift in Sources */,
+				A03169F025C627E200CE2BDA /* FeedBackView.swift in Sources */,
+				A02F80F225C4D7E400C7433D /* LoginViewModel.swift in Sources */,
 				A074866325C4BB4100870BA0 /* ContentView.swift in Sources */,
+				A02F80EE25C4BDA600C7433D /* InactiveView.swift in Sources */,
+				A03169ED25C626C700CE2BDA /* FeedbackModalController.swift in Sources */,
+				A02F80F925C4EF7900C7433D /* SettingsView.swift in Sources */,
+				A093B16225C5CD7700C2D4E2 /* RetirementButton.swift in Sources */,
+				A093B17725C5E48E00C2D4E2 /* TransactGroupView.swift in Sources */,
+				A02F80F525C4DB9300C7433D /* WelcomeBackView.swift in Sources */,
+				A093B16525C5D0A500C2D4E2 /* AssetMixButton.swift in Sources */,
 				A074866125C4BB4100870BA0 /* VanguardCopyApp.swift in Sources */,
+				A093B15725C5C85100C2D4E2 /* FakeDisclosures.swift in Sources */,
+				A02F80FC25C4F59100C7433D /* VanguardButtonStyle.swift in Sources */,
+				A093B14825C5B9CC00C2D4E2 /* ResultEnum.swift in Sources */,
+				A07DE1EA25C5F10F00253DAD /* TransactItemView.swift in Sources */,
+				A02F80FF25C4F64700C7433D /* PortfolioView.swift in Sources */,
+				A093B14425C5B99400C2D4E2 /* ToggleButton.swift in Sources */,
+				A03169EA25C623C100CE2BDA /* TransactionType.swift in Sources */,
+				A093B14F25C5C47E00C2D4E2 /* DateFormatter+Extension.swift in Sources */,
+				A093B16825C5D33300C2D4E2 /* ActivityButton.swift in Sources */,
+				A093B13C25C5B33300C2D4E2 /* PortfolioButtonGroup.swift in Sources */,
+				A093B14125C5B3AD00C2D4E2 /* UnderlineText.swift in Sources */,
+				A093B14C25C5C34A00C2D4E2 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
