@@ -16,7 +16,7 @@ All the UI was made using the iPhone XS Max, so some componenets maybe not look 
 ## How to open
 
 1. Clone the repo `https://github.com/kirtanp98/vanguard-beacon-clone-with-swiftui`
-2. Open https://github.com/kirtanp98/vanguard-beacon-clone-with-swiftui
+2. Open `VanguardCopy.xcodeproj`
 
 ## Vanguard Beacon App
 https://investor.vanguard.com/investing/mobile-apps
