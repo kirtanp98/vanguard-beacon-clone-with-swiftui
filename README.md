@@ -5,7 +5,7 @@ A mockup clone of Vanguard's Becon app using SwifUI
 
 I wanted to see if I can mockup/recreate parts of the Vanguard app using SwiftUI. Another reason is Beacon doesn't have dark mode, so I wanted to see how that would look like. 
 
-All the UI was made using the iPhone XS Max, so some componenets maybe not look nice unless it's on it.
+All the UI was made using the iPhone XS Max, so some components maybe not look nice unless it's on it.
 
 ## GIFs
 <p align="middle">
